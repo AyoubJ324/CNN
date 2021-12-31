@@ -184,7 +184,7 @@ def regularise(REG, RES):
             setattr(layer, attr, reg)
   return res
 
-#ResNet-50 Architecture block
+#ResNet-50 Architecture block || Testing commit
 This function returns resnet layer to add to our model below using pretrained weights form the ImageNet dataset
 
 def Residual_block():
